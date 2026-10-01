@@ -1,0 +1,12 @@
+run_at,feed,issue,error,items_in_feed,items_read,items_over_limit,new_items
+2026-10-01T23:22:27+00:00,36kr,failed,parse_error: SAXParseException('not well-formed (invalid token)'),0,0,0,0
+2026-10-01T23:22:27+00:00,Hacker News,failed,fetch_error: 419 Client Error:  for url: https://news.ycombinator.com/rss,0,0,0,0
+2026-10-01T23:22:27+00:00,Semafor Tech,over_limit,,265,200,65,200
+2026-10-01T23:22:27+00:00,VentureBeat AI,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/,0,0,0,0
+2026-10-01T23:22:27+00:00,r/LocalLLaMA,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/LocalLLaMA/top.rss?t=day,0,0,0,0
+2026-10-01T23:22:27+00:00,r/MachineLearning,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/MachineLearning/top.rss?t=day,0,0,0,0
+2026-10-01T23:22:27+00:00,r/OpenAI,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/OpenAI/top.rss?t=day,0,0,0,0
+2026-10-01T23:22:27+00:00,r/PPC,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PPC/top.rss?t=day,0,0,0,0
+2026-10-01T23:22:27+00:00,r/PromptEngineering,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PromptEngineering/top.rss?t=day,0,0,0,0
+2026-10-01T23:22:27+00:00,r/artificial,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/artificial/top.rss?t=day,0,0,0,0
+2026-10-01T23:22:27+00:00,r/bigseo,failed,fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bigseo/top.rss?t=day,0,0,0,0
