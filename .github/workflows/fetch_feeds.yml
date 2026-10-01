@@ -1,0 +1,69 @@
+name: Scanner V3 Fetch RSS Feeds
+
+on:
+  schedule:
+    # Once daily at 06:05 UTC: fetch all feeds, then email the digest.
+    - cron: "5 6 * * *"
+  workflow_dispatch: {}  # manual trigger from the Actions tab
+
+permissions:
+  contents: write  # needed to commit the articles.json back to the repo
+
+concurrency:
+  group: fetch-feeds
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run aggregator
+        run: python fetch_feeds.py
+
+      - name: Email digest to Gmail
+        # Always attempt to email, even if aggregator exited non-zero (partial failures
+        # should still be reported). If SMTP secrets aren't set, skip silently.
+        # Sends everything in pending_digest.json and clears it only on success,
+        # so a failed send goes out with the next run instead of being lost.
+        if: always()
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_TO: ${{ secrets.SMTP_TO }}
+          SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
+        run: |
+          if [ -z "$SMTP_USER" ] || [ -z "$SMTP_PASSWORD" ] || [ -z "$SMTP_TO" ]; then
+            echo "SMTP secrets not configured — skipping email step"
+            exit 0
+          fi
+          python send_email.py
+
+      - name: Commit refreshed data
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add articles.json articles_archive/ seen_ids.json pending_digest.json audit/ || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "feeds: auto-refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
