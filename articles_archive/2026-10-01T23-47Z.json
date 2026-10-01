@@ -1,5 +1,13 @@
 {
   "generated_at": "2026-10-01T23:47:17.008225+00:00",
+  "counts": {
+    "total": 1489,
+    "pass": 1197,
+    "skip": 292,
+    "new": 1489,
+    "pass_new": 1197,
+    "skip_new": 292
+  },
   "feed_status": {
     "Huxiu": {
       "ok": true,
@@ -521,14 +529,6 @@
       "fetched_at": "2026-10-01T23:47:17.008225+00:00",
       "category": "social_signal"
     }
-  },
-  "counts": {
-    "total": 1489,
-    "pass": 1197,
-    "skip": 292,
-    "new": 1489,
-    "pass_new": 1197,
-    "skip_new": 292
   },
   "articles": [
     {
