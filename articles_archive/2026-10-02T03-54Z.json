@@ -1,5 +1,13 @@
 {
   "generated_at": "2026-10-02T03:54:49.248442+00:00",
+  "counts": {
+    "total": 1524,
+    "pass": 1204,
+    "skip": 320,
+    "new": 1524,
+    "pass_new": 1204,
+    "skip_new": 320
+  },
   "feed_status": {
     "Jiqizhixin": {
       "ok": true,
@@ -521,14 +529,6 @@
       "fetched_at": "2026-10-02T03:54:49.248442+00:00",
       "category": "social_signal"
     }
-  },
-  "counts": {
-    "total": 1524,
-    "pass": 1204,
-    "skip": 320,
-    "new": 1524,
-    "pass_new": 1204,
-    "skip_new": 320
   },
   "articles": [
     {
