@@ -45,3 +45,19 @@ run_at,feed,issue,error,items_in_feed,items_read,items_over_limit,new_items
 2026-10-02T12:24:06+00:00,r/PromptEngineering,possible_gap+used_fallback,,100,100,0,100
 2026-10-02T12:24:06+00:00,r/artificial,used_fallback,,0,0,0,0
 2026-10-02T12:24:06+00:00,r/bigseo,used_fallback,,1,1,0,0
+2026-10-03T11:34:03+00:00,21Jingji,possible_gap,,100,100,0,100
+2026-10-03T11:34:03+00:00,36kr,failed,parse_error: SAXParseException('not well-formed (invalid token)'),0,0,0,0
+2026-10-03T11:34:03+00:00,Bloomberg Technology,possible_gap,,20,20,0,20
+2026-10-03T11:34:03+00:00,Hacker News,used_fallback,,100,100,0,43
+2026-10-03T11:34:03+00:00,Import AI,used_fallback,,0,0,0,0
+2026-10-03T11:34:03+00:00,Semafor Tech,over_limit,,248,200,48,16
+2026-10-03T11:34:03+00:00,The Verge,possible_gap,,10,10,0,10
+2026-10-03T11:34:03+00:00,VentureBeat AI,used_fallback,,74,74,0,2
+2026-10-03T11:34:03+00:00,r/LocalLLaMA,used_fallback,,0,0,0,0
+2026-10-03T11:34:03+00:00,r/MachineLearning,used_fallback,,56,56,0,3
+2026-10-03T11:34:03+00:00,r/OpenAI,used_fallback,,0,0,0,0
+2026-10-03T11:34:03+00:00,r/PPC,used_fallback,,51,51,0,13
+2026-10-03T11:34:03+00:00,r/PromptEngineering,used_fallback,,99,99,0,16
+2026-10-03T11:34:03+00:00,r/artificial,used_fallback,,0,0,0,0
+2026-10-03T11:34:03+00:00,r/bigseo,used_fallback,,4,4,0,3
+2026-10-03T11:34:03+00:00,r/digital_marketing,possible_gap,,3,3,0,3
