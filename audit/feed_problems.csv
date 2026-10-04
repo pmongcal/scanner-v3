@@ -61,3 +61,19 @@ run_at,feed,issue,error,items_in_feed,items_read,items_over_limit,new_items
 2026-10-03T11:34:03+00:00,r/artificial,used_fallback,,0,0,0,0
 2026-10-03T11:34:03+00:00,r/bigseo,used_fallback,,4,4,0,3
 2026-10-03T11:34:03+00:00,r/digital_marketing,possible_gap,,3,3,0,3
+2026-10-04T12:16:17+00:00,36kr,failed,parse_error: SAXParseException('not well-formed (invalid token)'),0,0,0,0
+2026-10-04T12:16:17+00:00,Bloomberg Technology,possible_gap,,7,7,0,7
+2026-10-04T12:16:17+00:00,Hacker News,used_fallback,,100,100,0,35
+2026-10-04T12:16:17+00:00,Import AI,used_fallback,,0,0,0,0
+2026-10-04T12:16:17+00:00,MarTech,possible_gap+used_fallback,,23,23,0,23
+2026-10-04T12:16:17+00:00,Qbitai,failed,"fetch_error: HTTPSConnectionPool(host='www.qbitai.com', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.qbitai.com', port=443) at 0x7fcf6c54d940>, 'Connection to www.qbitai.com timed out. (connect timeout=20)'))",0,0,0,0
+2026-10-04T12:16:17+00:00,Semafor Tech,over_limit,,248,200,48,0
+2026-10-04T12:16:17+00:00,VentureBeat AI,used_fallback,,62,62,0,1
+2026-10-04T12:16:17+00:00,r/LocalLLaMA,used_fallback,,0,0,0,0
+2026-10-04T12:16:17+00:00,r/MachineLearning,used_fallback,,57,57,0,10
+2026-10-04T12:16:17+00:00,r/OpenAI,used_fallback,,0,0,0,0
+2026-10-04T12:16:17+00:00,r/PPC,used_fallback,,65,65,0,12
+2026-10-04T12:16:17+00:00,r/PromptEngineering,used_fallback,,93,93,0,8
+2026-10-04T12:16:17+00:00,r/artificial,used_fallback,,0,0,0,0
+2026-10-04T12:16:17+00:00,r/bigseo,used_fallback,,3,3,0,1
+2026-10-04T12:16:17+00:00,r/digital_marketing,possible_gap,,5,5,0,5
