@@ -1,0 +1,1860 @@
+{
+  "feeds": [
+    {
+      "name": "36kr",
+      "category": "chinese_primary",
+      "url": "https://36kr.com/feed",
+      "language": "zh",
+      "priority": 1,
+      "fallback_url": "https://news.google.com/rss/search?q=site:36kr.com+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    },
+    {
+      "name": "Qbitai",
+      "category": "chinese_primary",
+      "url": "https://www.qbitai.com/feed",
+      "language": "zh",
+      "priority": 1
+    },
+    {
+      "name": "Jiqizhixin",
+      "category": "chinese_primary",
+      "url": "https://news.google.com/rss/search?q=site:jiqizhixin.com+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "language": "zh",
+      "priority": 1,
+      "fallback_url": "https://news.google.com/rss/search?q=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    },
+    {
+      "name": "Huxiu",
+      "category": "chinese_tech",
+      "url": "https://news.google.com/rss/search?q=site:huxiu.com+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "language": "zh",
+      "priority": 1,
+      "fallback_url": "https://feedx.net/rss/huxiu.xml"
+    },
+    {
+      "name": "TMTPost",
+      "category": "chinese_tech",
+      "url": "https://www.tmtpost.com/rss.xml",
+      "language": "zh",
+      "priority": 1
+    },
+    {
+      "name": "InfoQ China",
+      "category": "chinese_tech",
+      "url": "https://www.infoq.cn/feed",
+      "language": "zh",
+      "priority": 2
+    },
+    {
+      "name": "The Paper Tech",
+      "category": "chinese_tech",
+      "url": "https://news.google.com/rss/search?q=site:thepaper.cn+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "language": "zh",
+      "priority": 2,
+      "fallback_url": "https://feedx.net/rss/thepaper.xml"
+    },
+    {
+      "name": "21Jingji",
+      "category": "chinese_business",
+      "url": "https://news.google.com/rss/search?q=site:21jingji.com+when:7d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "language": "zh",
+      "priority": 2
+    },
+    {
+      "name": "Hacker News",
+      "category": "english_primary",
+      "url": "https://news.ycombinator.com/rss",
+      "language": "en",
+      "priority": 1,
+      "fallback_url": "https://news.google.com/rss/search?q=site:news.ycombinator.com+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Search Engine Land",
+      "category": "english_primary",
+      "url": "https://news.google.com/rss/search?q=site:searchengineland.com+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "language": "en",
+      "priority": 1
+    },
+    {
+      "name": "Mumbrella",
+      "category": "regional",
+      "url": "https://mumbrella.com.au/feed",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Marketing Week",
+      "category": "regional",
+      "url": "https://news.google.com/rss/search?q=site:marketingweek.com+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "The Drum",
+      "category": "regional",
+      "url": "https://news.google.com/rss/search?q=site:thedrum.com+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "TechCrunch",
+      "category": "tier1_tech",
+      "url": "https://techcrunch.com/feed/",
+      "language": "en",
+      "priority": 1
+    },
+    {
+      "name": "TechCrunch AI",
+      "category": "tier1_tech",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "language": "en",
+      "priority": 1,
+      "fallback_url": "https://news.google.com/rss/search?q=site:techcrunch.com+AI+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "The Verge",
+      "category": "tier1_tech",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Ars Technica AI",
+      "category": "tier1_tech",
+      "url": "https://arstechnica.com/ai/feed/",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Wired",
+      "category": "tier1_tech",
+      "url": "https://www.wired.com/feed/rss",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "MIT Technology Review",
+      "category": "tier1_tech",
+      "url": "https://www.technologyreview.com/feed/",
+      "language": "en",
+      "priority": 1
+    },
+    {
+      "name": "VentureBeat AI",
+      "category": "ai_deep",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "language": "en",
+      "priority": 1,
+      "fallback_url": "https://news.google.com/rss/search?q=site:venturebeat.com+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Import AI",
+      "category": "ai_deep",
+      "url": "https://importai.substack.com/feed",
+      "language": "en",
+      "priority": 1,
+      "fallback_url": "https://news.google.com/rss/search?q=site:importai.substack.com+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "AI Snake Oil",
+      "category": "ai_deep",
+      "url": "https://news.google.com/rss/search?q=site:normaltech.ai+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "language": "en",
+      "priority": 1
+    },
+    {
+      "name": "Semafor Tech",
+      "category": "business",
+      "url": "https://semafor.com/rss.xml",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Harvard Business Review",
+      "category": "business",
+      "url": "http://feeds.harvardbusiness.org/harvardbusiness",
+      "language": "en",
+      "priority": 2,
+      "link_base": "https://hbr.org"
+    },
+    {
+      "name": "Bloomberg Technology",
+      "category": "business",
+      "url": "https://feeds.bloomberg.com/technology/news.rss",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Adweek",
+      "category": "marketing_trade",
+      "url": "https://www.adweek.com/feed/",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Digiday",
+      "category": "marketing_trade",
+      "url": "https://digiday.com/feed/",
+      "language": "en",
+      "priority": 1
+    },
+    {
+      "name": "MarTech",
+      "category": "marketing_trade",
+      "url": "https://martech.org/feed",
+      "language": "en",
+      "priority": 1,
+      "fallback_url": "https://news.google.com/rss/search?q=site:martech.org+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Mi3 Australia",
+      "category": "regional",
+      "url": "https://news.google.com/rss/search?q=site:mi-3.com.au+when:7d&hl=en-AU&gl=AU&ceid=AU:en",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "r/digital_marketing",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/digital_marketing/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com/r/digital_marketing+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "r/bigseo",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/bigseo/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com/r/bigseo+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "r/PPC",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/PPC/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com/r/PPC+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "r/MachineLearning",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/MachineLearning/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com/r/MachineLearning+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "r/OpenAI",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/OpenAI/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com+%22r/OpenAI%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "fallback_urls": [
+        "https://old.reddit.com/r/OpenAI/top/.rss?t=day"
+      ]
+    },
+    {
+      "name": "r/PromptEngineering",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/PromptEngineering/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com/r/PromptEngineering+when:7d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "r/artificial",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/artificial/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com+%22r/artificial%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "fallback_urls": [
+        "https://old.reddit.com/r/artificial/top/.rss?t=day"
+      ]
+    },
+    {
+      "name": "r/LocalLLaMA",
+      "category": "social_signal",
+      "url": "https://www.reddit.com/r/LocalLLaMA/top.rss?t=day",
+      "language": "en",
+      "priority": 2,
+      "fallback_url": "https://news.google.com/rss/search?q=site:reddit.com+%22r/LocalLLaMA%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "fallback_urls": [
+        "https://old.reddit.com/r/LocalLLaMA/top/.rss?t=day"
+      ]
+    },
+    {
+      "name": "Google News — Business AU",
+      "category": "google_news_topic",
+      "url": "https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx6TVdZU0JXVnVMVWRDR2dKUVNDZ0FQAQ?hl=en-AU&gl=AU&ceid=AU:en",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Google News — Technology AU",
+      "category": "google_news_topic",
+      "url": "https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGRqTVhZU0JXVnVMVWRDR2dKUVNDZ0FQAQ?hl=en-AU&gl=AU&ceid=AU:en",
+      "language": "en",
+      "priority": 2
+    },
+    {
+      "name": "Google News — Science AU",
+      "category": "google_news_topic",
+      "url": "https://news.google.com/rss/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRFp0Y1RjU0JXVnVMVWRDR2dKUVNDZ0FQAQ?hl=en-AU&gl=AU&ceid=AU:en",
+      "language": "en",
+      "priority": 2
+    }
+  ],
+  "retention_hours": 96,
+  "negative_filter_vocab_en": {
+    "sports_context": [
+      "\\bfootball\\b",
+      "\\bsoccer\\b",
+      "\\bAFL\\b",
+      "\\bNRL\\b",
+      "\\brugby\\b",
+      "\\bcricket\\b",
+      "\\btennis\\b",
+      "\\bbasketball\\b",
+      "\\bNBA\\b",
+      "\\bNFL\\b",
+      "\\bMLB\\b",
+      "\\bNHL\\b",
+      "\\bgolf\\b",
+      "\\bFormula\\s*1\\b",
+      "\\bF1\\b",
+      "\\bboxing\\b",
+      "\\bUFC\\b",
+      "Premier League",
+      "Champions League",
+      "A-League",
+      "Australian Open",
+      "Wimbledon"
+    ],
+    "sports_coverage": [
+      "live scores?",
+      "latest scores?",
+      "match results?",
+      "match report",
+      "match preview",
+      "match highlights?",
+      "league standings",
+      "league table",
+      "team line-?up",
+      "starting XI",
+      "player ratings?",
+      "transfer news",
+      "transfer rumours?",
+      "transfer rumors?",
+      "transfer deadline",
+      "injury update",
+      "betting odds",
+      "draft picks?",
+      "draft order",
+      "draft results?",
+      "fixture list",
+      "fixtures today",
+      "fixtures this week",
+      "upcoming fixtures"
+    ],
+    "celebrity_context": [
+      "\\bactor\\b",
+      "\\bactress\\b",
+      "\\bsinger\\b",
+      "\\bcelebrity\\b",
+      "reality TV star",
+      "reality star",
+      "pop star",
+      "boy-?band member"
+    ],
+    "celebrity_gossip": [
+      "dating rumours?",
+      "dating rumors?",
+      "breakup rumours?",
+      "breakup rumors?",
+      "split rumours?",
+      "split rumors?",
+      "divorce rumours?",
+      "divorce rumors?",
+      "wedding photos?",
+      "wedding pictures?",
+      "secret wedding",
+      "secret romance",
+      "red-?carpet outfits?",
+      "red-?carpet looks?"
+    ],
+    "entertainment_context": [
+      "reality TV",
+      "reality show",
+      "TV show",
+      "television show",
+      "\\bseries\\b",
+      "\\bepisode\\b"
+    ],
+    "entertainment_recap": [
+      "episode recap",
+      "season recap",
+      "season finale recap",
+      "finale recap",
+      "episode-by-episode recap",
+      "reality show recap"
+    ],
+    "crime_context": [
+      "\\bmurder\\b",
+      "\\bhomicide\\b",
+      "armed robbery",
+      "\\brobbery\\b",
+      "\\bburglary\\b",
+      "\\bstabbing\\b",
+      "\\bkidnapping\\b",
+      "\\bhostage\\b",
+      "drug trafficking",
+      "sexual assault",
+      "\\brobber\\b"
+    ],
+    "crime_procedure": [
+      "\\barrested\\b",
+      "charged with",
+      "\\bsentenced\\b",
+      "\\bjailed\\b",
+      "convicted of",
+      "pleads guilty",
+      "pleaded guilty",
+      "found guilty"
+    ],
+    "war_reporting": [
+      "\\bairstrikes?\\b",
+      "air strikes?",
+      "missile strikes?",
+      "missile attack",
+      "rocket attack",
+      "drone strike",
+      "military offensive",
+      "artillery attack",
+      "troops killed",
+      "soldiers killed",
+      "war casualties",
+      "battlefield casualties",
+      "ceasefire talks",
+      "ceasefire agreement",
+      "front-?line fighting"
+    ],
+    "political_context": [
+      "\\belections?\\b",
+      "\\bpresidential\\b",
+      "\\bparliamentary\\b",
+      "senate race",
+      "governor race",
+      "\\bvoters?\\b",
+      "political party",
+      "leadership contest"
+    ],
+    "political_horserace": [
+      "opinion poll",
+      "voter poll",
+      "exit poll",
+      "polling average",
+      "approval rating",
+      "voting intention",
+      "seat projection",
+      "campaign trail",
+      "ballot recount",
+      "wins election",
+      "wins seat",
+      "loses seat"
+    ],
+    "political_specific": [
+      "party leadership challenge",
+      "party leadership contest",
+      "cabinet reshuffle",
+      "ministerial reshuffle"
+    ],
+    "weather_report": [
+      "^\\s*weather forecast\\s+(?:for|today|tomorrow|this|next|across|in)\\b",
+      "^\\s*today['’]s weather\\b",
+      "^\\s*tomorrow['’]s weather\\b",
+      "^\\s*weather today\\b",
+      "^\\s*weather tomorrow\\b",
+      "^\\s*weekend weather(?:\\s+forecast)?\\b",
+      "^\\s*weekly weather forecast\\b",
+      "^\\s*7-day weather forecast\\b",
+      "^\\s*severe weather warning\\b",
+      "^\\s*storm warning\\b",
+      "^\\s*thunderstorm warning\\b",
+      "^\\s*cyclone warning\\b",
+      "^\\s*typhoon warning\\b",
+      "^\\s*hurricane warning\\b",
+      "^\\s*heatwave warning\\b",
+      "^\\s*snow forecast\\b",
+      "^\\s*rainfall forecast\\b"
+    ],
+    "horoscope": [
+      "today['’]s horoscope",
+      "daily horoscope",
+      "weekly horoscope",
+      "monthly horoscope",
+      "horoscope today",
+      "horoscope for"
+    ],
+    "lottery_context": [
+      "\\blottery\\b",
+      "\\blotto\\b",
+      "Powerball",
+      "Oz Lotto",
+      "Mega Millions"
+    ],
+    "lottery_results": [
+      "winning numbers",
+      "draw results?",
+      "lottery results?",
+      "lotto results?",
+      "live draw",
+      "next draw",
+      "numbers drawn"
+    ],
+    "consumer_products": [
+      "\\bphones?\\b",
+      "smartphones?",
+      "laptops?",
+      "tablet computers?",
+      "\\bTVs?\\b",
+      "televisions?",
+      "headphones?",
+      "earbuds?",
+      "Bluetooth speakers?",
+      "wireless speakers?",
+      "smartwatches?",
+      "digital cameras?",
+      "mirrorless cameras?",
+      "action cameras?",
+      "vacuum cleaners?",
+      "robot vacuums?",
+      "fridges?",
+      "refrigerators?",
+      "washing machines?",
+      "coffee machines?",
+      "gaming consoles?",
+      "computer monitors?",
+      "gaming monitors?",
+      "computer keyboards?",
+      "gaming keyboards?",
+      "computer mice",
+      "gaming mice",
+      "air fryers?",
+      "blenders?",
+      "toasters?",
+      "dishwashers?",
+      "microwave ovens?",
+      "mattresses?",
+      "pillows?",
+      "air purifiers?",
+      "hair dryers?",
+      "hair straighteners?",
+      "electric toothbrushes?",
+      "shampoo",
+      "moisturiser",
+      "moisturizer",
+      "sunscreen",
+      "lipstick",
+      "running shoes",
+      "sneakers?",
+      "backpacks?",
+      "suitcases?",
+      "luggage",
+      "camping tents?",
+      "treadmills?",
+      "exercise bikes?",
+      "\\biPhone\\b",
+      "\\biPad\\b",
+      "\\bMacBook\\b",
+      "\\bAirPods\\b",
+      "Samsung Galaxy",
+      "Google Pixel",
+      "Microsoft Surface",
+      "PlayStation",
+      "\\bXbox\\b",
+      "Nintendo Switch",
+      "\\bKindle\\b"
+    ],
+    "shopping_deals": [
+      "best deals on",
+      "today['’]s deals",
+      "deals of the day",
+      "deal of the day",
+      "deals to shop",
+      "shop these deals",
+      "shop the deal",
+      "grab this deal"
+    ],
+    "coupon_codes": [
+      "coupon codes?",
+      "promo codes?",
+      "discount codes?",
+      "voucher codes?",
+      "\\bcoupons\\b"
+    ],
+    "coupon_qualifiers": [
+      "\\bworking\\b",
+      "\\bverified\\b",
+      "\\bupdated\\b",
+      "\\bexclusive\\b",
+      "use this code",
+      "\\b\\d{1,3}%\\s*off\\b",
+      "save\\s+(?:\\$|£|€)\\s?\\d",
+      "(?:\\$|£|€)\\s?\\d+\\s*off\\b",
+      "\\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\\s+20\\d{2}\\b"
+    ],
+    "consumer_price_promo": [
+      "down to\\s+(?:\\$|£|€)\\s?\\d",
+      "\\bnow\\s+(?:\\$|£|€)\\s?\\d",
+      "on sale for\\s+(?:\\$|£|€)\\s?\\d",
+      "\\b\\d{1,3}%\\s*off\\b",
+      "half[- ]price"
+    ],
+    "buying_guides": [
+      "\\bbest\\b.{0,80}\\bto buy\\b",
+      "\\bbest\\b.{0,80}\\bfor\\s+20\\d{2}\\b",
+      "\\bbest\\b.{0,80}\\bof\\s+20\\d{2}\\b",
+      "\\btop\\b.{0,80}\\bto buy\\b",
+      "buying guide",
+      "buyer['’]s guide",
+      "buyers['’] guide",
+      "should you buy",
+      "should I buy",
+      "our top.{0,50}picks"
+    ],
+    "sale_events": [
+      "Amazon Prime Day",
+      "Prime Day",
+      "Prime Big Deal Days",
+      "Black Friday",
+      "Cyber Monday",
+      "Boxing Day sale",
+      "EOFY sale",
+      "end-of-financial-year sale",
+      "end of financial year sale"
+    ],
+    "sale_roundup": [
+      "best deals",
+      "top deals",
+      "what to buy",
+      "what we['’]re buying",
+      "deals to shop",
+      "deal roundup",
+      "sale roundup",
+      "shop the sale",
+      "shopping picks",
+      "\\bbest\\b.{0,30}\\bdeals\\b"
+    ],
+    "product_review_terms": [
+      "\\breview\\b",
+      "hands-?on",
+      "first impressions",
+      "long[- ]term review"
+    ],
+    "vehicle_context": [
+      "\\bcar\\b",
+      "\\bSUV\\b",
+      "\\bute\\b",
+      "\\bsedan\\b",
+      "\\bhatchback\\b",
+      "pickup truck",
+      "pick-up truck",
+      "\\b4WD\\b",
+      "electric vehicle",
+      "electric car",
+      "plug-in hybrid",
+      "\\bPHEV\\b",
+      "\\bToyota\\b",
+      "\\bHonda\\b",
+      "\\bFord\\b",
+      "\\bBMW\\b",
+      "\\bMercedes(?:-Benz)?\\b",
+      "\\bTesla\\b",
+      "\\bBYD\\b",
+      "\\bHyundai\\b",
+      "\\bKia\\b",
+      "\\bMazda\\b",
+      "\\bNissan\\b",
+      "\\bVolkswagen\\b",
+      "\\bVolvo\\b",
+      "\\bAudi\\b",
+      "\\bLexus\\b",
+      "\\bSubaru\\b",
+      "\\bMitsubishi\\b",
+      "\\bIsuzu\\b",
+      "\\bLDV\\b",
+      "\\bRange Rover\\b",
+      "\\bLand Rover\\b",
+      "\\bPorsche\\b",
+      "\\bChevrolet\\b",
+      "\\bJeep\\b",
+      "\\bRenault\\b",
+      "\\bPeugeot\\b",
+      "\\bSkoda\\b",
+      "\\bPolestar\\b",
+      "\\bRivian\\b"
+    ],
+    "car_review_terms": [
+      "\\breview\\b",
+      "first drive",
+      "road test",
+      "driving review",
+      "price and specs",
+      "pricing and specs",
+      "full specifications",
+      "facelift revealed",
+      "model[- ]year update",
+      "revealed and priced"
+    ],
+    "venue_context": [
+      "\\brestaurant\\b",
+      "\\bcafe\\b",
+      "\\bcafé\\b",
+      "\\bbakery\\b",
+      "\\bpizzeria\\b",
+      "\\bsteakhouse\\b",
+      "\\bpub\\b",
+      "wine bar",
+      "rooftop bar"
+    ],
+    "venue_opening": [
+      "opens in",
+      "opening in",
+      "opens on",
+      "opening on",
+      "now open",
+      "opens its doors",
+      "opening its doors",
+      "opens (?:a )?second location",
+      "opens (?:a )?second venue",
+      "new restaurant opening",
+      "new cafe opening",
+      "new café opening"
+    ],
+    "travel_deals": [
+      "cheap flights",
+      "flight deals",
+      "airfare deals",
+      "hotel deals",
+      "accommodation deals",
+      "holiday deals",
+      "travel deals",
+      "cruise deals",
+      "flight sale",
+      "airfare sale",
+      "flights from\\s+(?:\\$|£|€)\\s?\\d",
+      "return flights for\\s+(?:\\$|£|€)\\s?\\d",
+      "hotel rooms from\\s+(?:\\$|£|€)\\s?\\d",
+      "holiday package deals",
+      "travel package deals"
+    ],
+    "food_context": [
+      "\\bcake\\b",
+      "cookies?",
+      "biscuits?",
+      "\\bbread\\b",
+      "\\bpasta\\b",
+      "\\bcurry\\b",
+      "\\bsoup\\b",
+      "\\bstew\\b",
+      "\\bsauce\\b",
+      "\\bsalad\\b",
+      "pancakes?",
+      "\\bpizza\\b",
+      "\\bpie\\b",
+      "brownies?",
+      "muffins?",
+      "roast chicken"
+    ],
+    "recipe_terms": [
+      "\\brecipe\\b",
+      "\\brecipes\\b",
+      "how to cook",
+      "how to bake",
+      "how to make"
+    ],
+    "property_context": [
+      "\\bhouse\\b",
+      "\\bhome\\b",
+      "\\bapartment\\b",
+      "\\bmansion\\b",
+      "\\bpenthouse\\b",
+      "\\btownhouse\\b",
+      "\\bcondo\\b",
+      "waterfront property",
+      "beachside lot"
+    ],
+    "property_listing": [
+      "listed for\\s+(?:\\$|£|€)\\s?\\d",
+      "listed at\\s+(?:\\$|£|€)\\s?\\d",
+      "for sale for\\s+(?:\\$|£|€)\\s?\\d",
+      "auction this weekend",
+      "property of the week",
+      "home of the week",
+      "inside this\\s+(?:\\$|£|€)\\s?\\d",
+      "asking price (?:of|is)\\s+(?:\\$|£|€)\\s?\\d",
+      "asking\\s+(?:\\$|£|€)\\s?\\d"
+    ],
+    "local_events": [
+      "what['’]s on this weekend",
+      "things to do this weekend",
+      "events this weekend",
+      "this weekend['’]s events",
+      "weekend guide",
+      "gig guide",
+      "local event guide",
+      "festival guide",
+      "concert guide",
+      "where to go this weekend"
+    ],
+    "household_finance": [
+      "household budget",
+      "family budget",
+      "personal budget",
+      "grocery bills?",
+      "\\bgroceries\\b",
+      "weekly shop",
+      "electricity bills?",
+      "gas bills?",
+      "water bills?",
+      "household bills?",
+      "family expenses",
+      "mortgage repayments?",
+      "credit card debt"
+    ],
+    "finance_advice": [
+      "how to save",
+      "how to budget",
+      "ways to save",
+      "money[- ]saving tips",
+      "budgeting tips",
+      "budget hacks",
+      "money hacks",
+      "how to pay off",
+      "ways to (?:cut|reduce|lower)"
+    ],
+    "travel_context": [
+      "\\bflights?\\b",
+      "\\bairfare\\b",
+      "hotel rooms?",
+      "\\baccommodation\\b",
+      "holiday packages?",
+      "cruises?",
+      "travel packages?"
+    ],
+    "travel_promo": [
+      "cheap flights",
+      "\\b\\d{1,3}%\\s*off\\b",
+      "(?:\\$|£|€)\\s?\\d",
+      "fare sale",
+      "flight sale",
+      "best deals",
+      "last[- ]minute deals?",
+      "package deals?"
+    ],
+    "deals_listicle_title": [
+      "^(?:the\\s+)?(?:\\d+\\s+)?best\\b.{0,60}\\bdeals?\\b",
+      "^I found\\b.{0,60}\\bdeals\\b"
+    ],
+    "best_year_title": [
+      "^(?:the\\s+)?(?:\\d+\\s+)?best\\b.{0,80}\\(20\\d{2}\\)"
+    ],
+    "gift_guide_title": [
+      "^(?:the\\s+)?(?:\\d+\\s+)?best gifts?\\b",
+      "\\bgift guide\\b",
+      "^(?:the\\s+)?(?:\\d+\\s+)?gifts? for\\b"
+    ],
+    "product_plug_title": [
+      "\\bget a discount on\\b",
+      "\\bthis best-selling\\b",
+      "\\bis the fix worth knowing about\\b"
+    ],
+    "disrupt_context": [
+      "TechCrunch Disrupt"
+    ],
+    "event_promo": [
+      "register now",
+      "get your pass",
+      "save up to\\s+\\$\\d+",
+      "second (?:pass|ticket) (?:at|for) 50%",
+      "\\bexpo\\+? pass\\b",
+      "exhibit(?:or|ing)? (?:at|table)",
+      "\\bside event\\b",
+      "early[- ]bird (?:pass|ticket)s?"
+    ],
+    "hn_flag_prefix": [
+      "^\\s*\\[(?:flagged|dupe|dead)\\]"
+    ]
+  },
+  "negative_filter_rules_en": [
+    {
+      "id": "sports_results",
+      "field": "text",
+      "groups": [
+        "sports_context",
+        "sports_coverage"
+      ]
+    },
+    {
+      "id": "celebrity_gossip",
+      "field": "text",
+      "groups": [
+        "celebrity_context",
+        "celebrity_gossip"
+      ]
+    },
+    {
+      "id": "entertainment_recaps",
+      "field": "text",
+      "groups": [
+        "entertainment_context",
+        "entertainment_recap"
+      ]
+    },
+    {
+      "id": "routine_crime",
+      "field": "text",
+      "groups": [
+        "crime_context",
+        "crime_procedure"
+      ]
+    },
+    {
+      "id": "war_reporting",
+      "field": "text",
+      "groups": [
+        "war_reporting"
+      ]
+    },
+    {
+      "id": "election_horserace",
+      "field": "text",
+      "groups": [
+        "political_context",
+        "political_horserace"
+      ]
+    },
+    {
+      "id": "party_politics",
+      "field": "text",
+      "groups": [
+        "political_specific"
+      ]
+    },
+    {
+      "id": "weather_report",
+      "field": "title",
+      "groups": [
+        "weather_report"
+      ]
+    },
+    {
+      "id": "horoscope",
+      "field": "text",
+      "groups": [
+        "horoscope"
+      ]
+    },
+    {
+      "id": "lottery_results",
+      "field": "text",
+      "groups": [
+        "lottery_context",
+        "lottery_results"
+      ]
+    },
+    {
+      "id": "shopping_deal",
+      "field": "text",
+      "groups": [
+        "consumer_products",
+        "shopping_deals"
+      ]
+    },
+    {
+      "id": "coupon_promo",
+      "field": "text",
+      "groups": [
+        "coupon_codes",
+        "coupon_qualifiers"
+      ]
+    },
+    {
+      "id": "consumer_price_promo",
+      "field": "text",
+      "groups": [
+        "consumer_products",
+        "consumer_price_promo"
+      ]
+    },
+    {
+      "id": "consumer_buying_guide",
+      "field": "text",
+      "groups": [
+        "consumer_products",
+        "buying_guides"
+      ]
+    },
+    {
+      "id": "sale_roundup",
+      "field": "text",
+      "groups": [
+        "sale_events",
+        "sale_roundup"
+      ]
+    },
+    {
+      "id": "consumer_product_review",
+      "field": "title",
+      "groups": [
+        "consumer_products",
+        "product_review_terms"
+      ]
+    },
+    {
+      "id": "car_review_or_specs",
+      "field": "title",
+      "groups": [
+        "vehicle_context",
+        "car_review_terms"
+      ]
+    },
+    {
+      "id": "restaurant_opening",
+      "field": "text",
+      "groups": [
+        "venue_context",
+        "venue_opening"
+      ]
+    },
+    {
+      "id": "travel_deal",
+      "field": "text",
+      "groups": [
+        "travel_context",
+        "travel_promo"
+      ]
+    },
+    {
+      "id": "recipe",
+      "field": "title",
+      "groups": [
+        "food_context",
+        "recipe_terms"
+      ]
+    },
+    {
+      "id": "property_listing",
+      "field": "text",
+      "groups": [
+        "property_context",
+        "property_listing"
+      ]
+    },
+    {
+      "id": "local_event_listing",
+      "field": "text",
+      "groups": [
+        "local_events"
+      ]
+    },
+    {
+      "id": "personal_finance_advice",
+      "field": "text",
+      "groups": [
+        "household_finance",
+        "finance_advice"
+      ]
+    },
+    {
+      "id": "deals_listicle",
+      "field": "title",
+      "groups": [
+        "deals_listicle_title"
+      ]
+    },
+    {
+      "id": "dated_best_list",
+      "field": "title",
+      "groups": [
+        "best_year_title"
+      ]
+    },
+    {
+      "id": "gift_guide",
+      "field": "title",
+      "groups": [
+        "gift_guide_title"
+      ]
+    },
+    {
+      "id": "product_plug",
+      "field": "title",
+      "groups": [
+        "product_plug_title"
+      ]
+    },
+    {
+      "id": "techcrunch_event_promo",
+      "field": "text",
+      "groups": [
+        "disrupt_context",
+        "event_promo"
+      ]
+    },
+    {
+      "id": "hn_flagged",
+      "field": "title",
+      "groups": [
+        "hn_flag_prefix"
+      ]
+    }
+  ],
+  "negative_filter_policy": {
+    "default": "PASS",
+    "on_match": "SKIP",
+    "scan_fields": [
+      "title",
+      "summary"
+    ],
+    "note": "Conservative negative-only filter. Common words do not skip by themselves; a complete rule must match. Unmatched content passes to Cowork. Rules ending _zh apply to Chinese-language feeds only."
+  },
+  "post_filters": {
+    "max_age_days": 7,
+    "_doc": "After the negative rules: SKIP too_old (published > max_age_days ago), non_article_page (empty titles, Registration, Archives, Author:, short Title-Case labels from Google News site: queries), duplicate (same source, same headline). PASS -> SKIP only, always with a reason."
+  },
+  "negative_filter_vocab_zh": {
+    "sports_context_zh": [
+      "足球",
+      "篮球",
+      "网球",
+      "乒乓球",
+      "羽毛球",
+      "排球",
+      "橄榄球",
+      "棒球",
+      "高尔夫",
+      "F1",
+      "一级方程式",
+      "拳击",
+      "UFC",
+      "英超",
+      "西甲",
+      "欧冠",
+      "中超",
+      "NBA",
+      "CBA",
+      "中网",
+      "澳网",
+      "温网",
+      "法网",
+      "美网"
+    ],
+    "sports_coverage_zh": [
+      "比赛结果",
+      "实时比分",
+      "最新比分",
+      "比分直播",
+      "赛事回顾",
+      "赛前预览",
+      "比赛集锦",
+      "积分榜",
+      "首发阵容",
+      "球员评分",
+      "转会消息",
+      "转会传闻",
+      "转会窗口",
+      "伤病更新",
+      "赔率",
+      "选秀顺位",
+      "赛程表",
+      "对阵表"
+    ],
+    "celebrity_context_zh": [
+      "演员",
+      "女演员",
+      "歌手",
+      "明星",
+      "偶像",
+      "爱豆",
+      "网红"
+    ],
+    "celebrity_gossip_zh": [
+      "恋情传闻",
+      "恋爱传闻",
+      "分手传闻",
+      "离婚传闻",
+      "婚纱照",
+      "秘密结婚",
+      "秘密恋情",
+      "红毯造型",
+      "红毯look",
+      "绯闻"
+    ],
+    "entertainment_context_zh": [
+      "综艺",
+      "真人秀",
+      "电视剧",
+      "剧集"
+    ],
+    "entertainment_recap_zh": [
+      "剧情回顾",
+      "分集回顾",
+      "大结局回顾",
+      "本季回顾",
+      "综艺回顾"
+    ],
+    "crime_context_zh": [
+      "谋杀",
+      "凶杀",
+      "抢劫",
+      "入室盗窃",
+      "持刀",
+      "绑架",
+      "劫持人质",
+      "贩毒",
+      "性侵",
+      "强奸"
+    ],
+    "crime_procedure_zh": [
+      "被捕",
+      "被逮捕",
+      "被抓获",
+      "被判",
+      "判处",
+      "被起诉",
+      "被控",
+      "认罪",
+      "被定罪",
+      "被拘留",
+      "行政拘留",
+      "落网"
+    ],
+    "war_reporting_zh": [
+      "空袭",
+      "导弹袭击",
+      "火箭弹袭击",
+      "无人机袭击",
+      "军事攻势",
+      "炮击",
+      "阵亡",
+      "战场伤亡",
+      "战争伤亡",
+      "停火谈判",
+      "停火协议",
+      "前线交火"
+    ],
+    "political_context_zh": [
+      "选举",
+      "总统大选",
+      "议会选举",
+      "参议院选战",
+      "州长选战",
+      "选民",
+      "政党",
+      "党首竞选"
+    ],
+    "political_horserace_zh": [
+      "民调",
+      "民意调查",
+      "出口民调",
+      "支持率",
+      "投票意向",
+      "席位预测",
+      "竞选之路",
+      "重新计票",
+      "赢得选举",
+      "赢得席位",
+      "失去席位"
+    ],
+    "political_specific_zh": [
+      "党首挑战",
+      "党首竞选",
+      "内阁改组",
+      "部长改组"
+    ],
+    "weather_report_zh": [
+      "^\\s*(?:今日|明日|今天|明天)?天气预报",
+      "^\\s*(?:周末|一周|未来7天)天气",
+      "^\\s*(?:大风|暴雨|台风|寒潮|高温|大雾|沙尘|强对流|暴雪|雷电)(?:蓝色|黄色|橙色|红色)?预警",
+      "^\\s*中央气象台",
+      "冷空气",
+      "大降温"
+    ],
+    "horoscope_zh": [
+      "今日运势",
+      "每日运势",
+      "本周运势",
+      "本月运势",
+      "星座运势",
+      "十二星座"
+    ],
+    "lottery_context_zh": [
+      "彩票",
+      "双色球",
+      "大乐透",
+      "福利彩票",
+      "体育彩票",
+      "七乐彩"
+    ],
+    "lottery_results_zh": [
+      "开奖结果",
+      "中奖号码",
+      "开奖号码",
+      "开奖直播",
+      "下期开奖"
+    ],
+    "consumer_products_zh": [
+      "手机",
+      "智能手机",
+      "笔记本电脑",
+      "平板电脑",
+      "电视",
+      "耳机",
+      "蓝牙音箱",
+      "智能手表",
+      "数码相机",
+      "微单",
+      "扫地机器人",
+      "吸尘器",
+      "冰箱",
+      "洗衣机",
+      "咖啡机",
+      "游戏机",
+      "显示器",
+      "键盘",
+      "鼠标",
+      "空气炸锅",
+      "搅拌机",
+      "洗碗机",
+      "微波炉",
+      "床垫",
+      "枕头",
+      "空气净化器",
+      "吹风机",
+      "电动牙刷",
+      "洗发水",
+      "面霜",
+      "防晒霜",
+      "口红",
+      "跑鞋",
+      "运动鞋",
+      "背包",
+      "行李箱",
+      "iPhone",
+      "iPad",
+      "MacBook",
+      "AirPods",
+      "Galaxy",
+      "Pixel",
+      "Surface",
+      "PlayStation",
+      "Xbox",
+      "Switch",
+      "Kindle"
+    ],
+    "shopping_deals_zh": [
+      "优惠推荐",
+      "今日特价",
+      "每日特惠",
+      "限时特惠",
+      "好价推荐",
+      "特价精选"
+    ],
+    "coupon_codes_zh": [
+      "优惠码",
+      "优惠券",
+      "折扣码",
+      "兑换码",
+      "促销码"
+    ],
+    "coupon_qualifiers_zh": [
+      "有效",
+      "最新",
+      "独家",
+      "已验证",
+      "\\d{1,3}折",
+      "立减\\d+",
+      "满\\d+减\\d+",
+      "\\d{4}年\\d{1,2}月"
+    ],
+    "consumer_price_promo_zh": [
+      "降至\\d+元",
+      "现价\\d+元",
+      "特价\\d+元",
+      "\\d{1,3}折",
+      "半价",
+      "直降\\d+元"
+    ],
+    "buying_guides_zh": [
+      "选购指南",
+      "选购攻略",
+      "购买指南",
+      "购机指南",
+      "买前必看",
+      "值不值得买",
+      "该不该买",
+      "最值得买"
+    ],
+    "sale_events_zh": [
+      "双十一",
+      "双11",
+      "双十二",
+      "双12",
+      "618",
+      "黑五",
+      "黑色星期五",
+      "网络星期一",
+      "Prime Day",
+      "年货节",
+      "购物节"
+    ],
+    "sale_roundup_zh": [
+      "好价清单",
+      "优惠汇总",
+      "必买清单",
+      "优惠合集",
+      "折扣汇总",
+      "省钱攻略",
+      "低价清单"
+    ],
+    "product_review_terms_zh": [
+      "评测",
+      "测评",
+      "上手",
+      "开箱",
+      "首发体验",
+      "深度体验",
+      "长期使用体验"
+    ],
+    "vehicle_context_zh": [
+      "汽车",
+      "轿车",
+      "SUV",
+      "皮卡",
+      "电动车",
+      "新能源车",
+      "插混",
+      "丰田",
+      "本田",
+      "福特",
+      "宝马",
+      "奔驰",
+      "特斯拉",
+      "比亚迪",
+      "现代汽车",
+      "起亚",
+      "马自达",
+      "日产",
+      "大众",
+      "沃尔沃",
+      "奥迪",
+      "雷克萨斯",
+      "斯巴鲁",
+      "三菱",
+      "保时捷",
+      "小米SU7",
+      "蔚来",
+      "理想汽车",
+      "小鹏",
+      "问界",
+      "智界",
+      "极氪",
+      "零跑"
+    ],
+    "car_review_terms_zh": [
+      "试驾",
+      "评测",
+      "测评",
+      "路试",
+      "售价及配置",
+      "价格及配置",
+      "完整配置",
+      "改款发布",
+      "年款更新",
+      "上市售价"
+    ],
+    "venue_context_zh": [
+      "餐厅",
+      "咖啡馆",
+      "咖啡店",
+      "面包店",
+      "披萨店",
+      "牛排馆",
+      "酒吧",
+      "火锅店"
+    ],
+    "venue_opening_zh": [
+      "开业",
+      "新店开张",
+      "盛大开业",
+      "试营业",
+      "即将开业",
+      "开门迎客"
+    ],
+    "travel_context_zh": [
+      "机票",
+      "航班",
+      "酒店",
+      "旅行团",
+      "邮轮",
+      "旅游套餐",
+      "度假套餐"
+    ],
+    "travel_promo_zh": [
+      "特价机票",
+      "\\d{1,3}折",
+      "\\d+元",
+      "特价",
+      "促销",
+      "限时",
+      "低至",
+      "降价",
+      "大跳水"
+    ],
+    "food_context_zh": [
+      "蛋糕",
+      "饼干",
+      "面包",
+      "意面",
+      "咖喱",
+      "沙拉",
+      "煎饼",
+      "披萨",
+      "布朗尼",
+      "玛芬",
+      "烤鸡",
+      "红烧肉",
+      "家常菜"
+    ],
+    "recipe_terms_zh": [
+      "食谱",
+      "做法",
+      "怎么做",
+      "如何制作",
+      "烹饪方法"
+    ],
+    "property_context_zh": [
+      "房子",
+      "住宅",
+      "公寓",
+      "豪宅",
+      "别墅",
+      "联排",
+      "楼盘",
+      "二手房"
+    ],
+    "property_listing_zh": [
+      "挂牌价",
+      "挂牌出售",
+      "标价\\d",
+      "要价\\d",
+      "周末拍卖",
+      "房源推荐",
+      "每周房产"
+    ],
+    "local_events_zh": [
+      "本周末活动",
+      "周末去哪",
+      "周末好去处",
+      "周末指南",
+      "演出指南",
+      "音乐节指南",
+      "市集指南",
+      "周末玩什么"
+    ],
+    "household_finance_zh": [
+      "家庭预算",
+      "个人预算",
+      "家庭开支",
+      "家庭账单",
+      "水电费",
+      "电费",
+      "燃气费",
+      "房贷还款",
+      "信用卡债务",
+      "菜价"
+    ],
+    "finance_advice_zh": [
+      "如何省钱",
+      "怎么省钱",
+      "省钱技巧",
+      "理财技巧",
+      "预算技巧",
+      "省钱妙招",
+      "如何还清",
+      "如何降低"
+    ],
+    "deals_listicle_title_zh": [
+      "^(?:\\d+个?)?(?:最佳|最值得).{0,30}(?:优惠|折扣|特价)",
+      "^我发现了.{0,30}优惠"
+    ],
+    "best_year_title_zh": [
+      "^(?:\\d+款)?(?:最佳|最好的|十大).{0,40}[（(]20\\d{2}[）)]"
+    ],
+    "gift_guide_title_zh": [
+      "送礼指南",
+      "礼物指南",
+      "^(?:\\d+个?)?最佳礼物",
+      "^适合.{0,20}的礼物"
+    ],
+    "product_plug_title_zh": [
+      "获取折扣",
+      "这款热销",
+      "这款畅销"
+    ],
+    "market_open_close_zh": [
+      "港股(?:午间收盘|收盘|开盘|午评|早评|收评)",
+      "(?:恒生指数|恒生科技指数|恒指|上证指数|沪指|深证成指|创业板指|三大股指).{0,14}(?:开盘|收盘|午间收盘|收涨|收跌|高开|低开)",
+      "A股.{0,6}(?:收盘|开盘|收涨|收跌)",
+      "两市成交"
+    ],
+    "traffic_notice_zh": [
+      "易发拥堵",
+      "易拥堵",
+      "充电特别繁忙",
+      "返程高峰",
+      "道路封闭",
+      "请绕行",
+      "延长.{0,8}运营时间"
+    ],
+    "earthquake_report_zh": [
+      "\\d+(?:\\.\\d+)?级地震",
+      "震源深度"
+    ]
+  },
+  "negative_filter_rules_zh": [
+    {
+      "id": "sports_results_zh",
+      "field": "text",
+      "groups": [
+        "sports_context_zh",
+        "sports_coverage_zh"
+      ]
+    },
+    {
+      "id": "celebrity_gossip_zh",
+      "field": "text",
+      "groups": [
+        "celebrity_context_zh",
+        "celebrity_gossip_zh"
+      ]
+    },
+    {
+      "id": "entertainment_recaps_zh",
+      "field": "text",
+      "groups": [
+        "entertainment_context_zh",
+        "entertainment_recap_zh"
+      ]
+    },
+    {
+      "id": "routine_crime_zh",
+      "field": "text",
+      "groups": [
+        "crime_context_zh",
+        "crime_procedure_zh"
+      ]
+    },
+    {
+      "id": "war_reporting_zh",
+      "field": "text",
+      "groups": [
+        "war_reporting_zh"
+      ]
+    },
+    {
+      "id": "election_horserace_zh",
+      "field": "text",
+      "groups": [
+        "political_context_zh",
+        "political_horserace_zh"
+      ]
+    },
+    {
+      "id": "party_politics_zh",
+      "field": "text",
+      "groups": [
+        "political_specific_zh"
+      ]
+    },
+    {
+      "id": "weather_report_zh",
+      "field": "title",
+      "groups": [
+        "weather_report_zh"
+      ]
+    },
+    {
+      "id": "horoscope_zh",
+      "field": "text",
+      "groups": [
+        "horoscope_zh"
+      ]
+    },
+    {
+      "id": "lottery_results_zh",
+      "field": "text",
+      "groups": [
+        "lottery_context_zh",
+        "lottery_results_zh"
+      ]
+    },
+    {
+      "id": "shopping_deal_zh",
+      "field": "text",
+      "groups": [
+        "consumer_products_zh",
+        "shopping_deals_zh"
+      ]
+    },
+    {
+      "id": "coupon_promo_zh",
+      "field": "text",
+      "groups": [
+        "coupon_codes_zh",
+        "coupon_qualifiers_zh"
+      ]
+    },
+    {
+      "id": "consumer_price_promo_zh",
+      "field": "text",
+      "groups": [
+        "consumer_products_zh",
+        "consumer_price_promo_zh"
+      ]
+    },
+    {
+      "id": "consumer_buying_guide_zh",
+      "field": "text",
+      "groups": [
+        "consumer_products_zh",
+        "buying_guides_zh"
+      ]
+    },
+    {
+      "id": "sale_roundup_zh",
+      "field": "text",
+      "groups": [
+        "sale_events_zh",
+        "sale_roundup_zh"
+      ]
+    },
+    {
+      "id": "consumer_product_review_zh",
+      "field": "title",
+      "groups": [
+        "consumer_products_zh",
+        "product_review_terms_zh"
+      ]
+    },
+    {
+      "id": "car_review_or_specs_zh",
+      "field": "title",
+      "groups": [
+        "vehicle_context_zh",
+        "car_review_terms_zh"
+      ]
+    },
+    {
+      "id": "restaurant_opening_zh",
+      "field": "text",
+      "groups": [
+        "venue_context_zh",
+        "venue_opening_zh"
+      ]
+    },
+    {
+      "id": "travel_deal_zh",
+      "field": "text",
+      "groups": [
+        "travel_context_zh",
+        "travel_promo_zh"
+      ]
+    },
+    {
+      "id": "recipe_zh",
+      "field": "title",
+      "groups": [
+        "food_context_zh",
+        "recipe_terms_zh"
+      ]
+    },
+    {
+      "id": "property_listing_zh",
+      "field": "text",
+      "groups": [
+        "property_context_zh",
+        "property_listing_zh"
+      ]
+    },
+    {
+      "id": "local_event_listing_zh",
+      "field": "text",
+      "groups": [
+        "local_events_zh"
+      ]
+    },
+    {
+      "id": "personal_finance_advice_zh",
+      "field": "text",
+      "groups": [
+        "household_finance_zh",
+        "finance_advice_zh"
+      ]
+    },
+    {
+      "id": "deals_listicle_zh",
+      "field": "title",
+      "groups": [
+        "deals_listicle_title_zh"
+      ]
+    },
+    {
+      "id": "dated_best_list_zh",
+      "field": "title",
+      "groups": [
+        "best_year_title_zh"
+      ]
+    },
+    {
+      "id": "gift_guide_zh",
+      "field": "title",
+      "groups": [
+        "gift_guide_title_zh"
+      ]
+    },
+    {
+      "id": "product_plug_zh",
+      "field": "title",
+      "groups": [
+        "product_plug_title_zh"
+      ]
+    },
+    {
+      "id": "market_open_close_zh",
+      "field": "title",
+      "groups": [
+        "market_open_close_zh"
+      ]
+    },
+    {
+      "id": "traffic_notice_zh",
+      "field": "title",
+      "groups": [
+        "traffic_notice_zh"
+      ]
+    },
+    {
+      "id": "earthquake_report_zh",
+      "field": "title",
+      "groups": [
+        "earthquake_report_zh"
+      ]
+    }
+  ]
+}
