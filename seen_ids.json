@@ -195,7 +195,9 @@
     "044aec862f7407a6",
     "t:1a539d5cc58e8671",
     "7e15383ea7c7e957",
-    "t:bb6f274c62474a77"
+    "t:bb6f274c62474a77",
+    "b71164cc90303d4c",
+    "t:d2d7e601e2d9ea69"
   ],
   "Huxiu": [
     "77e63f1be45399d0",
@@ -478,7 +480,15 @@
     "bba3b61e87bb0961",
     "t:4143edb2b3b771bb",
     "c295b0ae53c4247f",
-    "t:2e6426fafbf00c88"
+    "t:2e6426fafbf00c88",
+    "75e15d61a4e45dc8",
+    "t:901cd9c3b2e51567",
+    "51e15c5932385751",
+    "t:9a66c89b516dd9ae",
+    "75c4c5d4ddd7d162",
+    "t:6ac63bed1e2b9f67",
+    "ebf353d463457160",
+    "t:f547e402a27efb93"
   ],
   "21Jingji": [
     "8c7955210c7af6be",
@@ -999,7 +1009,15 @@
     "0077eaf0ec17b9f4",
     "t:895233cc17a9e0a8",
     "6e4177fbe95cea89",
-    "t:f4aac9ccef8739e6"
+    "t:f4aac9ccef8739e6",
+    "ac650265c63af859",
+    "t:480b0416366c135e",
+    "cdef95e938433ff3",
+    "t:2c5663f45c3cc890",
+    "1af0de83c6d6d132",
+    "t:e4f93545f6c47d60",
+    "f89e16b31c22141f",
+    "t:445e410b360f88b9"
   ],
   "Search Engine Land": [
     "b523c6a56d1e249a",
@@ -2258,7 +2276,9 @@
     "f977ae2e7ec6e4b8",
     "t:3aae8c4f04b0b956",
     "9b0733f82f1f2c22",
-    "t:c0ebf25c94359a21"
+    "t:c0ebf25c94359a21",
+    "da517a4b8138065a",
+    "t:e32a32cff41d1041"
   ],
   "The Verge": [
     "c10ca6a456035457",
@@ -3891,7 +3911,10 @@
     "7b184cd25d5a4016",
     "b8c8ba5559146480",
     "847543228037a092",
-    "f364367caaaca913"
+    "f364367caaaca913",
+    "61d4a94b73e0a2e2",
+    "5e0405818d4805a6",
+    "b82e55b6368ce7c5"
   ],
   "r/digital_marketing": [
     "6299104e044f4488",
@@ -4386,7 +4409,23 @@
     "c45d01e0a61133e0",
     "t:e7fdf0b91373a71f",
     "843186f6d992488f",
-    "t:9d148e0052684c80"
+    "t:9d148e0052684c80",
+    "eb0ac9b0f15e0f4f",
+    "t:f299da0b8974fa4c",
+    "c65ebdcc3ef844f9",
+    "t:4b5744e155d559fa",
+    "efcf0132495828c8",
+    "t:3f08ec994b75cbf3",
+    "805da5c47b9cc7e3",
+    "t:abc2a88cc647f993",
+    "1a76ea1f0933df91",
+    "t:88f1490c95a54d57",
+    "35665124d14b7ff4",
+    "t:1d9d114ccaa8b236",
+    "0cd64c452e676cb7",
+    "t:00b03d15d4daa866",
+    "f2907e5535df58f6",
+    "t:0acd3d5e9c7b4a37"
   ],
   "Google News — Technology AU": [
     "e534dbc96547a3b4",
@@ -4752,7 +4791,21 @@
     "4b990154c40a23a0",
     "t:9fbcc73acc531a03",
     "99485f83737bbea8",
-    "t:5e8193bd508fe0bf"
+    "t:5e8193bd508fe0bf",
+    "f90d6454c01ceed1",
+    "t:22343a04b210d5b2",
+    "ef59fc78421e7677",
+    "t:c7b8438d07e5ec04",
+    "7bd0bc0778c43651",
+    "t:bc0ab6f3cf16143a",
+    "a40982d7130d8900",
+    "t:f759f4cd90c4e40e",
+    "0061bfa5dded84a6",
+    "t:b3013fa5391aa333",
+    "726d5240a2f23c5c",
+    "t:ca8bf212154d5049",
+    "9cb99828602d3d38",
+    "t:98948d04ac750432"
   ],
   "Google News — Science AU": [
     "31435549f888732d",
@@ -5099,7 +5152,15 @@
     "0ae4995a154a2f93",
     "t:2ae725694026929b",
     "1be615e3e61e1ef2",
-    "t:b7aea10d215d1af6"
+    "t:b7aea10d215d1af6",
+    "b3c2554f91a89b53",
+    "t:60c53c35a471797b",
+    "3a40787497370a8c",
+    "t:684a43946619811b",
+    "5a42538ba7e874d1",
+    "t:1e0e0a664b7c27db",
+    "6b0bc59cc646bf77",
+    "t:5b2868ca19186dea"
   ],
   "r/bigseo": [
     "b72d616e8d59cf5a",
@@ -5876,7 +5937,9 @@
     "90948b1ce05447b0",
     "t:d3613bc7c8989323",
     "7b0494129d1c339d",
-    "t:c7def92bf0fc46be"
+    "t:c7def92bf0fc46be",
+    "df57c6f5023401a1",
+    "t:289e9bb305d98aac"
   ],
   "r/LocalLLaMA": [
     "52eb5cf2b3ef9030",
