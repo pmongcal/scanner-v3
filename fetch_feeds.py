@@ -298,6 +298,9 @@ _NON_ARTICLE_PATTERNS = [
     r"按住.{0,8}拖动",
     r"拖动.{0,8}拼图",
     r"^36Kr\s*直播$",
+    r"^36氪_",
+    r"项目信息-36氪",
+    r"_精彩视频为您呈现$",
 ]
 
 
@@ -314,6 +317,20 @@ def translated_copy_reason(a: dict) -> str | None:
     if core and not _CJK.search(core):
         return "translated_copy"
     return None
+
+
+_STALE_YEAR = re.compile(r"(?:^|\s)20(?:24|25)(?![年\d])")
+
+
+def stale_year_reason(a: dict) -> str | None:
+    """36kr's Google News copy includes rewritten pieces whose headlines carry
+    2024 or 2025 for events in 2026 ("2024国庆黄金周车市实探"). Real headlines
+    write the year as 2025年, so a bare 2024 or 2025 at the start of a headline,
+    or after a space, marks one of these. Applies to 36kr only."""
+    if a.get("source") != "36kr":
+        return None
+    core, _ = split_publisher(a.get("title", ""), a.get("url", ""))
+    return "stale_year_title" if _STALE_YEAR.search(core or "") else None
 
 
 def non_article_reason(a: dict) -> str | None:
@@ -347,7 +364,8 @@ def apply_post_filters(articles: list[dict], now: datetime, registry: dict) -> d
     cfg = registry.get("post_filters", {})
     max_age = int(cfg.get("max_age_days", 7))
     cutoff = now - timedelta(days=max_age)
-    counts = {"too_old": 0, "non_article_page": 0, "duplicate": 0, "translated_copy": 0}
+    counts = {"too_old": 0, "non_article_page": 0, "duplicate": 0, "translated_copy": 0,
+              "stale_year_title": 0}
     seen_titles: set[tuple[str, str]] = set()
     for a in articles:
         if a.get("filter_status") != "PASS":
@@ -362,7 +380,7 @@ def apply_post_filters(articles: list[dict], now: datetime, registry: dict) -> d
             a["filter_status"], a["filter_reason"] = "SKIP", reason
             counts[reason] += 1
             continue
-        reason = translated_copy_reason(a)
+        reason = translated_copy_reason(a) or stale_year_reason(a)
         if reason:
             a["filter_status"], a["filter_reason"] = "SKIP", reason
             counts[reason] += 1
@@ -701,7 +719,8 @@ def main() -> int:
     post = apply_post_filters(all_articles, now, registry)
     print(f"[aggregator] post filters: too_old={post['too_old']} "
           f"non_article_page={post['non_article_page']} duplicate={post['duplicate']} "
-          f"translated_copy={post['translated_copy']}")
+          f"translated_copy={post['translated_copy']} "
+          f"stale_year_title={post['stale_year_title']}")
 
     # mark which are newly-seen vs already sent. A story counts as seen if its
     # link was seen in ANY feed. Ids saved under the old formula still match.
