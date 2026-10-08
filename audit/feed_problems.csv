@@ -183,3 +183,23 @@ run_at,feed,issue,error,items_in_feed,items_read,items_over_limit,new_items
 2026-10-07T13:12:44+00:00,r/PromptEngineering,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PromptEngineering/top.rss?t=day | backup1: 93 items,93,93,0,4
 2026-10-07T13:12:44+00:00,r/artificial,empty,"main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/artificial/top.rss?t=day | backup1: parse_error: SAXParseException('not well-formed (invalid token)') | http=200 type=text/html; charset=utf-8 len=325241 starts='<!DOCTYPE html> <html lang=""en-US"" class=""theme-beta"" dir=""ltr"" device=""desktop""> <head prefix=""og: https://ogp.me/ns#""> <title>Welcome t' | backup2: returned 0 items",0,0,0,0
 2026-10-07T13:12:44+00:00,r/bigseo,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bigseo/top.rss?t=day | backup1: 4 items,4,4,0,1
+2026-10-08T13:19:43+00:00,36kr,used_fallback,"main: parse_error: SAXParseException('not well-formed (invalid token)') | http=200 type=text/html len=17603 starts='<!DOCTYPE html> <html lang=""en""> <head> <meta charset=""UTF-8"" /> <meta name=""viewport"" content=""width=device-width, initial-scale=1"" /> <link rel=""icon"" hre' | backup1: 100 items",100,100,0,49
+2026-10-08T13:19:43+00:00,Adweek,possible_gap,main: 10 items,10,10,0,10
+2026-10-08T13:19:43+00:00,Bloomberg Technology,possible_gap,main: 20 items,20,20,0,20
+2026-10-08T13:19:43+00:00,Hacker News,used_fallback,main: fetch_error: 419 Client Error:  for url: https://news.ycombinator.com/rss | backup1: 100 items,100,100,0,33
+2026-10-08T13:19:43+00:00,Import AI,used_fallback,main: fetch_error: 403 Client Error: Forbidden for url: https://importai.substack.com/feed | backup1: 2 items,2,2,0,0
+2026-10-08T13:19:43+00:00,Jiqizhixin,used_fallback,main: returned 0 items | backup1: 23 items,23,23,0,7
+2026-10-08T13:19:43+00:00,Qbitai,possible_gap,main: 10 items,10,10,0,10
+2026-10-08T13:19:43+00:00,Semafor Tech,over_limit,main: 260 items,260,200,60,33
+2026-10-08T13:19:43+00:00,TMTPost,possible_gap,main: 20 items,20,20,0,20
+2026-10-08T13:19:43+00:00,TechCrunch,possible_gap,main: 20 items,20,20,0,20
+2026-10-08T13:19:43+00:00,The Verge,possible_gap,main: 10 items,10,10,0,10
+2026-10-08T13:19:43+00:00,VentureBeat AI,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/ | backup1: 100 items,100,100,0,32
+2026-10-08T13:19:43+00:00,r/LocalLLaMA,possible_gap,main: 25 items,25,25,0,25
+2026-10-08T13:19:43+00:00,r/MachineLearning,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/MachineLearning/top.rss?t=day | backup1: 52 items,52,52,0,10
+2026-10-08T13:19:43+00:00,r/OpenAI,empty,"main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/OpenAI/top.rss?t=day | backup1: parse_error: SAXParseException('not well-formed (invalid token)') | http=200 type=text/html; charset=utf-8 len=326205 starts='<!DOCTYPE html> <html lang=""en-US"" class=""theme-beta"" dir=""ltr"" device=""desktop""> <head prefix=""og: https://ogp.me/ns#""> <title>Welcome t' | backup2: returned 0 items",0,0,0,0
+2026-10-08T13:19:43+00:00,r/PPC,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PPC/top.rss?t=day | backup1: 61 items,61,61,0,11
+2026-10-08T13:19:43+00:00,r/PromptEngineering,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PromptEngineering/top.rss?t=day | backup1: 82 items,82,82,0,15
+2026-10-08T13:19:43+00:00,r/artificial,empty,"main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/artificial/top.rss?t=day | backup1: parse_error: SAXParseException('not well-formed (invalid token)') | http=200 type=text/html; charset=utf-8 len=325256 starts='<!DOCTYPE html> <html lang=""en-US"" class=""theme-beta"" dir=""ltr"" device=""desktop""> <head prefix=""og: https://ogp.me/ns#""> <title>Welcome t' | backup2: returned 0 items",0,0,0,0
+2026-10-08T13:19:43+00:00,r/bigseo,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bigseo/top.rss?t=day | backup1: 4 items,4,4,0,0
+2026-10-08T13:19:43+00:00,r/digital_marketing,possible_gap,main: 4 items,4,4,0,4
