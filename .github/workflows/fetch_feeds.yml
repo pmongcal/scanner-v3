@@ -3,7 +3,7 @@ name: Scanner V3 Fetch RSS Feeds
 on:
   schedule:
     # Once daily at 06:05 UTC: fetch all feeds, then email the digest.
-    - cron: "5 6 * * *"
+    - cron: "37 22 * * *"
   workflow_dispatch: {}  # manual trigger from the Actions tab
 
 permissions:
