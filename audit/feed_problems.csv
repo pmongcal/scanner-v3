@@ -461,3 +461,22 @@ run_at,feed,issue,error,items_in_feed,items_read,items_over_limit,new_items
 2026-10-22T00:51:49+00:00,r/artificial,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/artificial/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2Fartificial%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
 2026-10-22T00:51:49+00:00,r/bigseo,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bigseo/top.rss?t=day | backup1: 3 items,3,3,0,2
 2026-10-22T00:51:49+00:00,r/digital_marketing,possible_gap,main: 3 items,3,3,0,3
+2026-10-23T00:53:29+00:00,36kr,used_fallback,"main: parse_error: SAXParseException('not well-formed (invalid token)') | http=200 type=text/html len=25361 starts='<!DOCTYPE html> <html lang=""en""> <head> <meta charset=""UTF-8"" /> <meta name=""viewport"" content=""width=device-width, initial-scale=1"" /> <link rel=""icon"" hre' | backup1: 100 items",100,100,0,73
+2026-10-23T00:53:29+00:00,Adweek,possible_gap,main: 10 items,10,10,0,10
+2026-10-23T00:53:29+00:00,Bloomberg Technology,possible_gap,main: 20 items,20,20,0,20
+2026-10-23T00:53:29+00:00,Hacker News,used_fallback,main: fetch_error: 419 Client Error:  for url: https://news.ycombinator.com/rss | backup1: 100 items,100,100,0,32
+2026-10-23T00:53:29+00:00,Import AI,used_fallback,main: fetch_error: 403 Client Error: Forbidden for url: https://importai.substack.com/feed | backup1: 2 items,2,2,0,0
+2026-10-23T00:53:29+00:00,Jiqizhixin,used_fallback,main: returned 0 items | backup1: 17 items,17,17,0,4
+2026-10-23T00:53:29+00:00,Semafor Tech,over_limit,main: 263 items,263,200,63,32
+2026-10-23T00:53:29+00:00,TMTPost,possible_gap,main: 18 items,18,18,0,18
+2026-10-23T00:53:29+00:00,TechCrunch,possible_gap,main: 20 items,20,20,0,20
+2026-10-23T00:53:29+00:00,The Verge,possible_gap,main: 10 items,10,10,0,10
+2026-10-23T00:53:29+00:00,VentureBeat AI,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/ | backup1: 38 items,38,38,0,5
+2026-10-23T00:53:29+00:00,r/LocalLLaMA,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/LocalLLaMA/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2FLocalLLaMA%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
+2026-10-23T00:53:29+00:00,r/MachineLearning,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/MachineLearning/top.rss?t=day | backup1: 37 items,37,37,0,4
+2026-10-23T00:53:29+00:00,r/OpenAI,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/OpenAI/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2FOpenAI%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
+2026-10-23T00:53:29+00:00,r/PPC,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PPC/top.rss?t=day | backup1: 42 items,42,42,0,11
+2026-10-23T00:53:29+00:00,r/PromptEngineering,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PromptEngineering/top.rss?t=day | backup1: 68 items,68,68,0,22
+2026-10-23T00:53:29+00:00,r/artificial,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/artificial/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2Fartificial%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
+2026-10-23T00:53:29+00:00,r/bigseo,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bigseo/top.rss?t=day | backup1: 3 items,3,3,0,1
+2026-10-23T00:53:29+00:00,r/digital_marketing,possible_gap,main: 7 items,7,7,0,7
