@@ -528,3 +528,23 @@ run_at,feed,issue,error,items_in_feed,items_read,items_over_limit,new_items
 2026-10-26T00:40:09+00:00,r/artificial,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/artificial/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2Fartificial%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
 2026-10-26T00:40:09+00:00,r/bigseo,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bigseo/top.rss?t=day | backup1: 9 items,9,9,0,3
 2026-10-26T00:40:09+00:00,r/digital_marketing,possible_gap,main: 3 items,3,3,0,3
+2026-10-27T01:36:30+00:00,36kr,used_fallback,"main: parse_error: SAXParseException('not well-formed (invalid token)') | http=200 type=text/html len=25361 starts='<!DOCTYPE html> <html lang=""en""> <head> <meta charset=""UTF-8"" /> <meta name=""viewport"" content=""width=device-width, initial-scale=1"" /> <link rel=""icon"" hre' | backup1: 100 items",100,100,0,90
+2026-10-27T01:36:30+00:00,AI Snake Oil,empty,main: returned 0 items,0,0,0,0
+2026-10-27T01:36:30+00:00,Adweek,possible_gap,main: 10 items,10,10,0,10
+2026-10-27T01:36:30+00:00,Bloomberg Technology,possible_gap,main: 20 items,20,20,0,20
+2026-10-27T01:36:30+00:00,Hacker News,used_fallback,main: fetch_error: 419 Client Error:  for url: https://news.ycombinator.com/rss | backup1: 100 items,100,100,0,56
+2026-10-27T01:36:30+00:00,Import AI,possible_gap+used_fallback,main: fetch_error: 403 Client Error: Forbidden for url: https://importai.substack.com/feed | backup1: 1 items,1,1,0,1
+2026-10-27T01:36:30+00:00,Jiqizhixin,used_fallback,main: returned 0 items | backup1: 16 items,16,16,0,4
+2026-10-27T01:36:30+00:00,Mumbrella,possible_gap,main: 20 items,20,20,0,20
+2026-10-27T01:36:30+00:00,Semafor Tech,over_limit,main: 207 items,207,200,7,40
+2026-10-27T01:36:30+00:00,TMTPost,possible_gap,main: 17 items,17,17,0,17
+2026-10-27T01:36:30+00:00,The Verge,possible_gap,main: 10 items,10,10,0,10
+2026-10-27T01:36:30+00:00,VentureBeat AI,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/ | backup1: 31 items,31,31,0,4
+2026-10-27T01:36:30+00:00,r/LocalLLaMA,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/LocalLLaMA/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2FLocalLLaMA%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
+2026-10-27T01:36:30+00:00,r/MachineLearning,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/MachineLearning/top.rss?t=day | backup1: 34 items,34,34,0,5
+2026-10-27T01:36:30+00:00,r/OpenAI,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/OpenAI/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2FOpenAI%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
+2026-10-27T01:36:30+00:00,r/PPC,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PPC/top.rss?t=day | backup1: 44 items,44,44,0,12
+2026-10-27T01:36:30+00:00,r/PromptEngineering,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/PromptEngineering/top.rss?t=day | backup1: 67 items,67,67,0,17
+2026-10-27T01:36:30+00:00,r/artificial,empty,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/artificial/top.rss?t=day | backup1: fetch_error: 403 Client Error: Blocked for url: https://old.reddit.com/login/?reason=lor2&dest=https%3A%2F%2Fold.reddit.com%2Fr%2Fartificial%2Ftop%2F.rss%3Ft%3Dday | backup2: returned 0 items,0,0,0,0
+2026-10-27T01:36:30+00:00,r/bigseo,used_fallback,main: fetch_error: 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/bigseo/top.rss?t=day | backup1: 13 items,13,13,0,6
+2026-10-27T01:36:30+00:00,r/digital_marketing,possible_gap+used_fallback,main: returned 0 items | backup1: 18 items,18,18,0,18
